@@ -22,11 +22,17 @@ Current version is 3.8.1, but still use 3.7
 So
 
 ``` shell
-pyenv install 3.7.3
+pyenv install 3.8.1
 ```
 
 then create venv:
 
 ```shell
 python3 -m venv .env
+```
+
+after create the venv, point the python version to that one:
+
+```shell
+source .env/bin/activate
 ```
