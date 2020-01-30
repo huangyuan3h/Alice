@@ -36,3 +36,9 @@ after create the venv, point the python version to that one:
 ```shell
 source .env/bin/activate
 ```
+
+install requirement dependency:
+
+```shell
+pip install -r requirements.txt
+```
