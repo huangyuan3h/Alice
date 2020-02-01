@@ -4,6 +4,7 @@
   - [Environment](#environment)
     - [python env manager](#python-env-manager)
     - [Python Version](#python-version)
+    - [start flask](#start-flask)
 
 Project Alice is currently a personal project to aim to create a `artifical learning intelligence common system`.
 
@@ -41,4 +42,10 @@ install requirement dependency:
 
 ```shell
 pip install -r requirements.txt
+```
+
+### start flask
+
+```shell
+export FLASK_APP=flaskr & export FLASK_ENV=development & python -m flask run
 ```
