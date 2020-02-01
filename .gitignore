@@ -1,6 +1,6 @@
 # ignore for ide
 .history/
-.env/
+venv/
 .vscode/
 
 
